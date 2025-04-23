@@ -1,5 +1,8 @@
+import Controllers.BookController;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        BookController book =new BookController();
 
         Book[] books = {
                 new Book("Clean Code", 2008),
@@ -33,6 +36,7 @@ public class App {
                 new Book("Deep Learning", 2016),
                 new Book("The Elements of Statistical Learning", 2001)
         };
+
 
     }
 }
